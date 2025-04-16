@@ -2,14 +2,25 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <title>GroceMate</title>
+    
+    <!-- Add the cart icon as favicon (make sure to use the correct path) -->
+    <link rel="icon" type="image/svg+xml" href="/path-to-your-icon.svg" />
+    
   </head>
   <body>
-    <div id="root">
-      
-    </div>
+    <!-- Add the cart icon inside the body (displayed at the top) -->
+    <header>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path d="M3 3h18l-1.5 9h-15l-1.5-9zM5 3l1 9h12l1-9m-9 5c1.104 0 2 0.896 2 2s-.896 2-2 2-2-.896-2-2 .896-2 2-2zm5 0c1.104 0 2 0.896 2 2s-.896 2-2 2-2-.896-2-2 .896-2 2-2z"/>
+      </svg>
+      <h1>GroceMate</h1>
+    </header>
+
+    <!-- React app root -->
+    <div id="root"></div>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
